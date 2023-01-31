@@ -6,6 +6,7 @@ import styled from "styled-components";
 const Container = styled.div`
     border: 1px solid rgba(100, 116, 139, 0.12);
     border-radius: 8px;
+    max-width: 45%;
 `;
 
 function Addresses() {

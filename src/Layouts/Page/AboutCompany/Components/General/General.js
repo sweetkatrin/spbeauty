@@ -1,5 +1,6 @@
 import Profile from "./Components/Profile/Profile";
 import Preferences from "./Components/Preferences";
+
 function General() {
     return (
         <div className='d-inline-flex flex-column col'>
