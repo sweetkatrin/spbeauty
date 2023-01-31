@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 function SecondaryButton(props) {
     // Здесь устанавливается минимальная ширина для кнопки
-    let minWidth = props.minWidth === undefined ? props.minWidth : '217px'; //!!! было наоборот 
+    let minWidth = props.minWidth === undefined ?  '217px' : props.minWidth;  
     const Button = styled.div`
         border: 1px solid #64748B;
         border-radius: 24px;
