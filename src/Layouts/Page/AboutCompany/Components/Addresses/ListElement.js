@@ -4,7 +4,6 @@ import EditIcon from '../../../../../Icons/EditIcon';
 import RemoveIcon from '../../../../../Icons/RemoveIcon';
 import IconOnlyButton from '../../../../../Components/IconOnlyButton.js';
 
-
 function ListElement(props) {
     return (
         <div className='d-flex flex-row align-items-center align-self-stretch gap-2 py-3'>
