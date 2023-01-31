@@ -5,7 +5,7 @@ function AboutCompany() {
     return (
         <div>
             <Heading/> {/* Заголовок и кнопка справа */}
-            <div className='d-flex flex-column mt-5'>
+            <div className='row gap-5 mt-5 justify-content-around'>
                 <General/>  {/* Основная информация вроде названия, типа и телефона */}
                 <Addresses/> {/* Список доступных адресов заведений */}
             </div>
@@ -13,4 +13,4 @@ function AboutCompany() {
     );
 }
 
-export default AboutCompany;
+export default AboutCompany; 
